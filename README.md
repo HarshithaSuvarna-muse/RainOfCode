@@ -4,6 +4,17 @@ Welcome to **Rain of Code**, a coding event by **Sceptix Club**.
 
 You'll submit all your work to this repository as a Pull Request (PR). Judges review each PR to see your code, your commits, and your progress, so follow the steps below carefully.
 
+> [!WARNING]
+> **Create a `.gitignore` file inside your team folder before your first commit.** Never push `node_modules/` or `.env` files. `node_modules/` makes your PR huge and hard to review, and `.env` files usually contain API keys and passwords that anyone can see once pushed.
+>
+> Create `submissions/<team-name>/.gitignore` with at least:
+> ```
+> node_modules/
+> .env
+> .env.*
+> ```
+> Using Python? Add `venv/`, `.venv/` and `__pycache__/` too.
+
 ## Before You Start
 
 You need:
